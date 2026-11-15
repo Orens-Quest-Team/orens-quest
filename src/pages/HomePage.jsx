@@ -9,7 +9,7 @@ import discordLinkLogo from "../assests/WebPageComponites/discord-logo-550x70.pn
 
 console.log(window.innerHeight);
 console.log(window.innerWidth);
-var BoxAmount = Math.round(window.innerHeight / 60);
+var BoxAmount = Math.round(window.innerHeight / 20);
 console.log(BoxAmount);
 
 function HomePage() {
@@ -35,7 +35,7 @@ function HomePage() {
       <h1 className="MainWelcomeTitle">Welcome to Oren's Quest!</h1>
       <div className="divider1"></div>
       <div className="itemBoxHolderOne">
-        <div className="ItemBoxOne"></div>
+        <div className="ItemBoxOne" />
         <div className="textBoxOne">
           <h1 className="textOneHeader"> About us</h1>
           <p1 className="textOneParagraph">

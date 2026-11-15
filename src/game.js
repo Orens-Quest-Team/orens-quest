@@ -1,22 +1,12 @@
 import Phaser from "phaser";
-import skyImage from "/src/assests/gameassests/test/sky.png";
-
-function preload() {
-  this.load.image("player", s);
-  this.load.image("sky", skyImage);
-}
-
-function create() {
-  this.add.image(400, 300, "sky");
-}
-
-function update() {}
+import useWindowSize from "./Components/windoeSize";
 
 export function createGame(parent) {
   return new Phaser.Game({
     type: Phaser.AUTO,
     parent,
-    backgroundColor: "#000000",
+    width: window.innerWidth,
+    height: window.innerHeight,
     scene: {
       preload,
       create,
@@ -24,3 +14,9 @@ export function createGame(parent) {
     },
   });
 }
+
+function preload() {}
+
+function create() {}
+
+function update() {}
