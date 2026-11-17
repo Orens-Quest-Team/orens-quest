@@ -1,27 +1,15 @@
-import Phaser from 'phaser';
+import Phaser from "phaser";
 
-var config = {
+export function createSuperMarioGame(parent) {
+  return new Phaser.Game({
     type: Phaser.AUTO,
-    width: 800,
-    height: 600,
+    parent,
+    width: window.innerWidth,
+    height: window.innerHeight,
     scene: {
-        preload: preload,
-        create: create,
-        update: update
-    }
-};
-
-var game = new Phaser.Game(config);
-
-function preload ()
-{
-}
-
-function create ()
-{
-    
-}
-
-function update ()
-{
+      preload() {},
+      create() {},
+      update() {},
+    },
+  });
 }

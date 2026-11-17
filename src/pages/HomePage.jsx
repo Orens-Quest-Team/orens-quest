@@ -77,6 +77,9 @@ function HomePage() {
         </div>
       </div>
       <div className="divider1"></div>
+      <Link to="/secret" className="Shh">
+        shh
+      </Link>
     </main>
   );
 }

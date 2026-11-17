@@ -1,3 +1,12 @@
 import react from "react";
+import { createSuperMarioGame } from "./SuperMario.js";
 
-function
+function SuperMarioPage() {
+  return (
+    <main>
+      <div ref={gameContainerRef} />
+    </main>
+  );
+}
+
+export default SuperMarioPage;
