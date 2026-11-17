@@ -3,9 +3,9 @@ import { useState, useEffect } from "react";
 import "./HomePageStyles.css";
 import { Link } from "react-router-dom";
 import useWindowSize from "../Components/windoeSize";
-import youtubeLinkImage from "../assests/WebPageComponites/youtubeLogo.png";
-import githubLinkLogo from "../assests/WebPageComponites/github-logo-550x70.png";
-import discordLinkLogo from "../assests/WebPageComponites/discord-logo-550x70.png";
+import youtubeLinkImage from "../WebPageComponites/youtubeLogo.png";
+import githubLinkLogo from "../WebPageComponites/github-logo-550x70.png";
+import discordLinkLogo from "../WebPageComponites/discord-logo-550x70.png";
 
 console.log(window.innerHeight);
 console.log(window.innerWidth);

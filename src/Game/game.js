@@ -1,5 +1,5 @@
 import Phaser from "phaser";
-import useWindowSize from "./Components/windoeSize";
+import useWindowSize from "../Components/windoeSize";
 
 export function createGame(parent) {
   return new Phaser.Game({
