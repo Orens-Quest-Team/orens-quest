@@ -4,7 +4,7 @@ import { createSuperMarioGame } from "./SuperMario.js";
 function SuperMarioPage() {
   return (
     <main>
-      <div ref={gameContainerRef} />
+      <div ref={createSuperMarioGame} />
     </main>
   );
 }
