@@ -1,0 +1,22 @@
+:root {
+  --primary-color: #282828;
+  --secondary-color: #000000;
+  --accent-color: #2e3e64;
+  --text-color: #ffffff;
+  --third-color: #ffffff00;
+}
+.MainWelcome {
+position: fixed;
+justify-content: center;
+text-align: center;
+align-items: center;
+left: 50%;
+Transform: translateX(-50%);
+top: 10px;
+height: 64px;
+display: flex;
+padding: 0 2rem;
+background-color: var(--third-color);
+z-index: 10000;
+border-radius: 10px;
+}

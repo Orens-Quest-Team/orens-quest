@@ -1,3 +1,4 @@
+import "./SuperMario.css";
 import React, { useEffect, useRef } from "react";
 import createSuperMarioGame from "./SuperMario.js";
 
@@ -14,7 +15,11 @@ function SuperMarioPage() {
 
   return (
     <main>
-      <div ref={gameContainerRef} />
+      <div id="supermario-game-container" ref={gameContainerRef}>
+        <div>
+          <h1 className="MainWelcome">Super Mario Bros!</h1>
+        </div>
+      </div>
     </main>
   );
 }
