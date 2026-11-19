@@ -14,7 +14,7 @@ function SuperMarioPage() {
 
   return (
     <main>
-      <div id="supermario-game-container" ref={gameContainerRef} />
+      <div ref={gameContainerRef} />
     </main>
   );
 }

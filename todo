@@ -10,13 +10,13 @@
     - polish 
     - make a lock so it only show after you get to that part
 # game page
-    - phaser <canvas> item
+    - phaser <canvas> item {done 11-17-2026}
     - settings pop up
     - add auto hide to top bar
     - polish
 # main page
-    - make it welcoming
-    - links (discord, youtube, github, others)
+    - make it welcoming {done 11-11-2026}
+    - links (discord, youtube, github, others){done 11-12-2026}
     - polish
 # style pages
     - all pages same
